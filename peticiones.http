@@ -1,0 +1,28 @@
+POST http://localhost:8082/usersvip2 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "pepito",
+    "lastName": "Perez"
+}
+
+##########
+
+GET http://localhost:8082/usersvip2 HTTP/1.1
+content-type: application/json
+#####
+
+
+POST http://localhost:8081/usersclient HTTP/1.1
+content-type: application/json
+
+{
+    "name": "pepito",
+    "lastName": "Perez"
+}
+
+##########
+
+GET http://localhost:8081/usersclient HTTP/1.1
+content-type: application/json
+#####
